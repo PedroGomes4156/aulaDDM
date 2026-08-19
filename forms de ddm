@@ -1,0 +1,32 @@
+import { Text, View, TextInput } from 'react-native';
+
+export default function App() {
+  return (
+    <View>
+    <Text> Insira seu nome </Text>
+    <TextInput
+    placeholder='Seu nome'
+      style={{
+        borderRadius: 5,
+        borderwhidth:1,
+        margin: 10,
+        padding: 5
+      }}
+    />
+      
+      <Text> Insira sua idade </Text>
+      <TextInput
+         placeholder='Sua Idade'
+         keyboardType='numeric'
+         secureTextEntry={false}
+      style={{
+        borderRadius: 5,
+        borderwhidth:1,
+        margin: 10,
+        padding: 5
+      }}
+      />
+    </View>
+  );
+}
+
