@@ -22,7 +22,7 @@ export default function App() {
      </View>
 
      <View style={{ flex:8, backgroundColor: '#838C61'}} />
-     <Text style={{fontSize: 15,fontWeight: 'bold', marginTop: 10,color:"#D9C8B4"}}>V1.67-Pedro Henrique Santos</Text>
+     <Text style={{fontSize: 15,fontWeight: 'bold', marginTop: 10,color:"#D9C8B4",textAlign:'center'}}>V1.67-Pedro Henrique Santos</Text>
 
     </View>
     
