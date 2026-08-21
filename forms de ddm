@@ -1,4 +1,4 @@
-import { Text, View, TextInput } from 'react-native';
+import { Button,Text, View, TextInput,Image,Pressable } from 'react-native';
 
 export default function App() {
   return (
@@ -26,7 +26,26 @@ export default function App() {
         padding: 5
       }}
       />
+
+      <Button
+      title='ja escrevi'
+      onPress={()=> {alert("Enviado")}}
+      disabled={true}
+      />
+      
+    
+     <Pressable
+     onPress={ () => {alert("agora foi do pressable")}}
+     >
+      <Image source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWU_iM25xCAKX3BT8hd4lkE3R1DI6TRFCCav7BVYR3Q&s=10'}}
+     style={{
+       width:120,
+       height:120
+     }}
+     />
+     </Pressable>
+
+
     </View>
   );
 }
-
