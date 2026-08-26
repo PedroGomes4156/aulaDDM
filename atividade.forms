@@ -3,6 +3,10 @@ import { Button,Text, View, TextInput,Image,Pressable } from 'react-native';
 export default function App() {
   return (
     <View>
+
+    <View>   <Text style={{fontSize: 35,fontWeight: 'bold', marginTop: 10,color:"black",textAlign:'center'}}>Login App</Text></View>
+
+
 <View style={{ flex:64,alignItems:'center'}}>
      <Image source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWU_iM25xCAKX3BT8hd4lkE3R1DI6TRFCCav7BVYR3Q&s=10'}}
      style={{
@@ -39,7 +43,7 @@ export default function App() {
       />
 
       <Button
-      title='ja escrevi'
+      title='Enviar'
       onPress={()=> {alert("Enviado")}}
       disabled={false}
       />
@@ -48,7 +52,7 @@ export default function App() {
      <Pressable
      onPress={ () => {alert("Não sei oq colocar")}}
      >
-     <Text style={{textAlign:'center'}}
+     <Text style={{textAlign:'center',color:"blue"}}
      >Ja tem senha?</Text>
      </Pressable>
 
@@ -56,14 +60,3 @@ export default function App() {
     </View>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
