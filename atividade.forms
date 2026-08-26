@@ -16,20 +16,21 @@ export default function App() {
      </View>
 
 
-    <Text> Insira Seu E-mail </Text>
+    <Text style={{textAlign:'center'}}> Insira Seu E-mail </Text>
     <TextInput
     placeholder='Seu E-mail'
       style={{
         borderRadius: 5,
         borderwhidth:1,
         margin: 10,
-        padding: 5
+        padding: 5,
+        textAlign: 'center'
 
         
       }}
     />
 
-      <Text> Insira Insira sua senha </Text>
+      <Text style={{textAlign:'center'}}> Insira Insira sua senha </Text>
       <TextInput
          placeholder='Sua senha'
          keyboardType='numeric'
@@ -38,7 +39,8 @@ export default function App() {
         borderRadius: 5,
         borderwhidth:1,
         margin: 10,
-        padding: 5
+        padding: 5,
+         textAlign: 'center'
       }}
       />
 
