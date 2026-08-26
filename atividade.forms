@@ -1,0 +1,69 @@
+import { Button,Text, View, TextInput,Image,Pressable } from 'react-native';
+
+export default function App() {
+  return (
+    <View>
+<View style={{ flex:64,alignItems:'center'}}>
+     <Image source={{uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWU_iM25xCAKX3BT8hd4lkE3R1DI6TRFCCav7BVYR3Q&s=10'}}
+     style={{
+       width:100,
+       height:100
+     }}/>
+     </View>
+
+
+    <Text> Insira Seu E-mail </Text>
+    <TextInput
+    placeholder='Seu E-mail'
+      style={{
+        borderRadius: 5,
+        borderwhidth:1,
+        margin: 10,
+        padding: 5
+
+        
+      }}
+    />
+
+      <Text> Insira Insira sua senha </Text>
+      <TextInput
+         placeholder='Sua senha'
+         keyboardType='numeric'
+         secureTextEntry={true}
+      style={{
+        borderRadius: 5,
+        borderwhidth:1,
+        margin: 10,
+        padding: 5
+      }}
+      />
+
+      <Button
+      title='ja escrevi'
+      onPress={()=> {alert("Enviado")}}
+      disabled={false}
+      />
+      
+    
+     <Pressable
+     onPress={ () => {alert("Não sei oq colocar")}}
+     >
+     <Text style={{textAlign:'center'}}
+     >Ja tem senha?</Text>
+     </Pressable>
+
+
+    </View>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
