@@ -1,0 +1,104 @@
+import { Text, ScrollView,SafeAreaView } from 'react-native';
+
+export default function App() {
+  return (
+    
+    <SafeAreaView style={{ flex: 1, backgroundColor: 'red'}}>
+
+    <ScrollView style={{ flex: 2,backgroundColor: 'yellow'}}>
+
+
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+
+        <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+    <Text style={{ margin: 50}}>
+    Um texto demonstrativo
+    </Text>
+
+    </ScrollView>
+
+    </SafeAreaView>
+  );
+}
+
+
