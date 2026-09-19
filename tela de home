@@ -1,0 +1,51 @@
+import { Text, View, Image, Button } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, backgroundColor: '#838C61' }}>
+
+      <View style={{ flex: 10, alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#D9C8B4', textAlign: 'center' }}>
+          Painel da Fazenda
+        </Text>
+      </View>
+
+      <View style={{ flex: 40, alignItems: 'center', justifyContent: 'center' }}>
+        <Image 
+          source={require('./logo.png')} 
+          style={{ width: 200, height: 200 }} 
+        />
+      </View>
+
+      <View style={{ flex: 35, alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 18, color: '#D9C8B4', marginTop: 10, textAlign: 'center' }}>
+          Cogumelos em producao: 1250
+        </Text>
+        <Text style={{ fontSize: 18, color: '#D9C8B4', marginTop: 10, textAlign: 'center' }}>
+          Temperatura: 22 graus
+        </Text>
+        <Text style={{ fontSize: 18, color: '#D9C8B4', marginTop: 10, textAlign: 'center' }}>
+          Umidade: 85%
+        </Text>
+        <Text style={{ fontSize: 18, color: '#D9C8B4', marginTop: 10, textAlign: 'center' }}>
+          Estoque: 340 kg
+        </Text>
+      </View>
+
+      <View style={{ flex: 10, alignItems: 'center', justifyContent: 'center' }}>
+        <Button
+          title='Atualizar Dados'
+          onPress={() => { alert("Dados atualizados") }}
+          disabled={false}
+        />
+      </View>
+
+      <View style={{ flex: 5, alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#D9C8B4', textAlign: 'center' }}>
+          V1.67-Pedro Henrique Santos
+        </Text>
+      </View>
+
+    </View>
+  );
+}
